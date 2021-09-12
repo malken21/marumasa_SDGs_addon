@@ -1,3 +1,3 @@
 # marumasaworld_minecraft_mod
-First source code for mods developed by malken
-test
+SDGsに関係するアイテム,ブロックなどを追加するアドオン
+制作:malken21
