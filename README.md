@@ -1,3 +1,3 @@
 # marumasaworld_minecraft_mod
 SDGsに関係するアイテム,ブロックなどを追加するアドオン
-制作:malken21
+\n制作:malken21
