@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "marumasasdgs:zombiekiller_lv.2"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "#S#",
+      "###"
+    ],
+    "key": {
+      "S": {
+        "item": "marumasasdgs:zombiekiller_lv.1"
+      },
+      "#": {
+        "item": "marumasasdgs:sdgs_ingot"
+      }
+    },
+    "result": {
+      "item": "marumasasdgs:zombiekiller_lv.2"
+    }
+  }
+  
+}

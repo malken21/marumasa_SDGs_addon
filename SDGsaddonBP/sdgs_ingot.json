@@ -1,0 +1,13 @@
+﻿{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "marumasasdgs:sdgs_ingot"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "sdgs_ingot"
+      }
+    }
+  }
+}
