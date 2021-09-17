@@ -1,9 +1,0 @@
-{
-   "resource_pack_name" : "sdgs_pack",
-   "texture_data" : {
-      "sdgs_ingot" : {
-         "textures" : "textures/items/sdgs_ingot"
-      }
-   },
-   "texture_name" : "atlas.items"
-}
