@@ -1,0 +1,28 @@
+﻿{
+    "format_version": "1.17.11",
+    "minecraft:block": {
+        "description": {
+            "identifier": "marumasasdgs:zombiekiller_lv.1"
+        },
+"events": {"zombiekiller":{"run_command": {"command": "effect @e[r=16,family=zombie] wither 1 1 true"}}},
+        "components": {
+            "minecraft:loot": "loot_tables/blocks/zombiekiller_lv.1.json",
+            "minecraft:unit_cube": {},
+            "minecraft:ticking": {"range": [1,1],"on_tick": {"event": "zombiekiller"}},
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "zombiekiller_lv.1",
+                    "render_method": "opaque"
+                },
+                "up": {
+                    "texture": "zombiekiller_lv.1_up",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "zombiekiller_lv.1_down",
+                    "render_method": "opaque"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+﻿{
+    "format_version": "1.17.11",
+    "minecraft:block": {
+        "description": {
+            "identifier": "marumasasdgs:sdgs_block"
+        },
+        "components": {
+            "minecraft:loot": "loot_tables/blocks/sdgs_block.json",
+            "minecraft:unit_cube": {},
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "sdgs_block",
+                    "render_method": "opaque"
+                }
+            }
+        }
+    }
+}

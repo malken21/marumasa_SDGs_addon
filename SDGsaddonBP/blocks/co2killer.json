@@ -1,0 +1,46 @@
+﻿{
+    "format_version": "1.17.11",
+    "minecraft:block": {
+        "description": {
+            "identifier": "marumasasdgs:co2killer"
+        },
+        "events": {
+            "co2killer": {
+                "randomize": [
+                    {
+                        "weight": 1,
+                        "run_command": {
+                            "command": "function co2killer"
+                        }
+                    },
+                    {
+                        "weight": 2
+                    }
+                ]
+            }
+        },
+        "components": {
+            "minecraft:loot": "loot_tables/blocks/co2killer.json",
+            "minecraft:unit_cube": {},
+            "minecraft:random_ticking": {
+                "on_tick": {
+                    "event": "co2killer"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "co2killer",
+                    "render_method": "opaque"
+                },
+                "up": {
+                    "texture": "co2killer_up",
+                    "render_method": "opaque"
+                },
+                "down": {
+                    "texture": "co2killer_down",
+                    "render_method": "opaque"
+                }
+            }
+        }
+    }
+}
