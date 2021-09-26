@@ -1,4 +1,6 @@
 # marumasa_SDGs_addon
+Add-ons for adding SDGs elements to Minecraft
+<br>
 SDGsに関係するアイテム,ブロックなどを追加するアドオン
 <br>
 バージョン1.17.11
